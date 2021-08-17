@@ -13,8 +13,13 @@ The following command starts cloudshell container and mounts current working dir
 # Terraform
 
 `terraform init` to install dependencies
+
 `terraform fmt && terraform validate` to fix fomratting and validate configuration
+
 `terraform apply` to apply configuration
+
 `terraform show` to inspect the current state
+
 `terraform state list` to list resources in the state file
+
 `terraform destroy` to destroy the stack
