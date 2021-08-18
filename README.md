@@ -1,5 +1,5 @@
 # azure-experiments
-Repeatable deployments on Azure Cloud
+Repeatable deployments on Azure Cloud and elsewhere (eg. locally)
 
 ## Azure Cloud Shell Image
 [Docker image](https://github.com/Azure/CloudShell) with all the bells and whistles for repeatable deployments
@@ -16,7 +16,7 @@ The following command starts cloudshell container and mounts current working dir
 
 `terraform fmt && terraform validate` to fix fomratting and validate configuration
 
-`terraform apply` to apply configuration
+`terraform apply` to apply configuration (use `-auto-approve` flag to skip confirmation prompt)
 
 `terraform show` to inspect the current state
 
