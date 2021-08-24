@@ -10,11 +10,14 @@ The following command starts cloudshell container and mounts current working dir
 
 `sudo docker run -v ${PWD}:/usr/cloudshell/repo -it mcr.microsoft.com/azure-cloudshell /bin/bash`
 
+
 # Terraform
 
 `terraform init` to install dependencies
 
 `terraform fmt && terraform validate` to fix fomratting and validate configuration
+
+`terraform plan` to show what is going to be changed 
 
 `terraform apply` to apply configuration (use `-auto-approve` flag to skip confirmation prompt)
 
@@ -23,3 +26,4 @@ The following command starts cloudshell container and mounts current working dir
 `terraform state list` to list resources in the state file
 
 `terraform destroy` to destroy the stack
+
